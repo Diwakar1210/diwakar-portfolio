@@ -1,0 +1,12 @@
+.resumeBtn{
+    display: block;
+    background-color: var(--color-one);
+    color: var(--color-two);
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+}

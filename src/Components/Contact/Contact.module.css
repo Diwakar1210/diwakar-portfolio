@@ -1,0 +1,8 @@
+.contact{
+    padding: 20px 100px;
+}
+.contact h1{
+    color:var(--color-two);
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.675rem + 1.625vw, 2.625rem);
+}

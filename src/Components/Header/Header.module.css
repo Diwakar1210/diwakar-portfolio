@@ -1,0 +1,39 @@
+.header{
+    background-color: var(--color-one);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header ul li{
+    list-style: none;
+}
+.header ul li a{
+    padding: 5px 10px;
+    margin: 0px 20px;
+    display: block;
+}
+.header ul li a span{
+    font-size: 18px;
+    color: var(--color-two);
+    font-weight: 600;
+}
+.logo{
+    font-size: 50px;
+    color: var(--color-two);
+}
+
+@media only screen and (max-width:576px){
+    .header{
+        padding: 0px 20px;
+    }
+    .header ul{
+        display: none;
+    }
+}
