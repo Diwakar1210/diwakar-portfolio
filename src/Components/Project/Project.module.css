@@ -29,6 +29,20 @@
     color: var(--color-one);
     padding-bottom: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.project_Card h4 a{
+    display: flex;
+    transition:transform 0.3s;
+}
+.project_Card h4 a:hover{
+    transform: translate(5px,-5px);
+}
+.project_Card h4 a img{
+    width: 30px;
 }
 .project_Card ul li{
     font-size: 0.875rem;

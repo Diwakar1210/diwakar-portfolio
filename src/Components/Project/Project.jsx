@@ -1,18 +1,19 @@
 import React from "react";
 import styles from "./Project.module.css";
+import arrow from "../../assets/svg/arrow.svg";
 
 const Project = () => {
   return (
     <section className={styles.project} id="project">
       <div>
-        <h1>04. Projects</h1>
-        <p className={styles.short_description}>
+        <h1 data-aos="fade-right">04. Projects</h1>
+        <p className={styles.short_description} data-aos="fade-right" data-aos-duration="2000">
           "I had the opportunity to work on over <b>15+ projects</b> at Maxpro
           Technologies Pvt Ltd and would love to highlight a few of them below."
         </p>
         <div className={styles.project_Content}>
-          <div className={styles.project_Card}>
-            <h4>Midigiworld</h4>
+          <div className={styles.project_Card} data-aos="fade-up" data-aos-duration="2000">
+            <h4>Midigiworld <a href="https://www.midigiworld.com/" target="blank"> <img src={arrow} alt="arrow-icon" /> </a> </h4>
             <ul>
               <li>
                 Developed responsive Admin, Tutor, and Learner portals using
@@ -29,8 +30,8 @@ const Project = () => {
               </li>
             </ul>
           </div>
-          <div className={styles.project_Card}>
-            <h4>Indiashopee</h4>
+          <div className={styles.project_Card} data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+            <h4>Indiashopee <a href="https://indiashoppe.com/" target="blank"> <img src={arrow} alt="arrow-icon" /> </a> </h4>
             <ul>
               <li>
                 Revamped the eCommerce website using a customizable template,
@@ -47,7 +48,7 @@ const Project = () => {
               </li>
             </ul>
           </div>
-          <div className={styles.project_Card}>
+          <div className={styles.project_Card} data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
             <h4>Nagaarjuna Construction Company</h4>
             <ul>
               <li>
@@ -62,7 +63,7 @@ const Project = () => {
               </li>
             </ul>
           </div>
-          <div className={styles.project_Card}>
+          <div className={styles.project_Card} data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
             <h4>Farmer Producer Organization</h4>
             <ul>
               <li>
@@ -76,7 +77,7 @@ const Project = () => {
               </li>
             </ul>
           </div>
-          <div className={styles.project_Card}>
+          <div className={styles.project_Card} data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
             <h4>Shrinithi Insurance</h4>
             <ul>
               <li>
@@ -90,8 +91,8 @@ const Project = () => {
               </li>
             </ul>
           </div>
-          <div className={styles.project_Card}>
-            <h4>Zoomlo</h4>
+          <div className={styles.project_Card} data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+            <h4>Zoomlo <a href="https://zoomlo.in/" target="blank"> <img src={arrow} alt="arrow-icon" /> </a> </h4>
             <ul>
               <li>
                 Revamped the Zoomlo PhotosApp admin website using a customizable

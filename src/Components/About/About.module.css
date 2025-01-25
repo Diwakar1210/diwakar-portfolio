@@ -12,6 +12,9 @@
     gap:20px;
     padding: 30px 0;
 }
+.about_Content img{
+    margin: auto;
+}
 .about_Content div p{
     font-size: 0.875rem;
     font-size: clamp(0.875rem, 0.775rem + 0.5vw, 1.375rem);
@@ -49,7 +52,6 @@
         grid-template-columns: 100%;
     }
     .about_Content img{
-        margin: auto;
         width: 70%;
     }
     .about_Content div ul{

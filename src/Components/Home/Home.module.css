@@ -1,7 +1,7 @@
 .home{
     height: calc(100% - 70px);
     margin: 10px 0;
-    padding: 30px 100px;
+    padding: 70px 100px;
     border-radius: 50px;
     background-color: var(--color-two);
   }
