@@ -12,24 +12,27 @@ const Footer = () => {
         <div className={styles.footer_Navigation}>
           <ul>
             <li>
-              <a href="">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="">Experience</a>
+              <a href="#experience">Experience</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="#project">Projects</a>
             </li>
           </ul>
           <ul>
             <li>
-              <a href="">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/diwakar-b-605b3a21b/" target="blank">LinkedIn</a>
             </li>
             <li>
-              <a href="">Instagram</a>
+              <a href="https://www.instagram.com/_iamdiwakar_/" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a href="https://github.com/Diwakar1210" target="_blank">Github</a>
             </li>
           </ul>
         </div>

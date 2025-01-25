@@ -13,7 +13,8 @@ const Home = () => {
               Currently honing React skills.</p>
             <Button />
             <div className={styles.contact}>
-              <a href="mailto:diwakar.b1999@gmail.com">diwakar.b1999@gmail.com</a><a href="">www.linkedin.com/in/diwakarb12</a>
+              <a href="mailto:diwakar.b1999@gmail.com">diwakar.b1999@gmail.com</a>
+              <a href="https://www.linkedin.com/in/diwakar-b-605b3a21b/" target='blank'>www.linkedin.com/in/diwakarb12</a>
             </div>
             <h1 style={{textAlign:"end",}}> &lt;/html&gt; </h1>
         </div>
